@@ -61,13 +61,8 @@ flutter:
 
   # To add assets to your application, add an assets section, like this:
   assets:
-    - icons/linkdin.webp
-    - icons/call.jpg
-    - icons/gmail.png
-    - icons/sms.gif
-    - icons/calll.jpg
-    - icons/smsss.png
-    - icons/connect.png
+    - icons/
+
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware

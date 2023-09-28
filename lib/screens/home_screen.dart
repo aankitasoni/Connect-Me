@@ -60,7 +60,7 @@ class HomeScreen extends StatelessWidget {
                     ),
                   ),
                   const SizedBox(
-                    height: 20.0,
+                    height: 35.0,
                   ),
                   Container(
                     decoration: BoxDecoration(
@@ -88,8 +88,8 @@ class HomeScreen extends StatelessWidget {
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(100.0),
                     ),
-                    height: 150,
-                    width: 150,
+                    height: 120,
+                    width: 120,
                     child: GestureDetector(
                       onTap: () async {
                         Uri ur = Uri.parse(
@@ -99,20 +99,21 @@ class HomeScreen extends StatelessWidget {
                         }
                       },
                       child: const Image(
-                        image: AssetImage('icons/sms.gif'),
+                        image: AssetImage('icons/sms.png'),
                         fit: BoxFit.cover,
+                        color: Colors.white,
                       ),
                     ),
                   ),
                   const SizedBox(
-                    height: 15.0,
+                    height: 45.0,
                   ),
                   Container(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(100.0),
                     ),
-                    height: 140,
-                    width: 200,
+                    height: 120,
+                    width: 120,
                     child: GestureDetector(
                       onTap: () async {
                         Uri ur = Uri.parse('tel:+918505073889');
@@ -121,8 +122,10 @@ class HomeScreen extends StatelessWidget {
                         }
                       },
                       child: const Image(
-                        image: AssetImage('icons/call.jpg'),
+                        image: AssetImage('icons/phone.png',
+                        ),
                         fit: BoxFit.cover,
+                        color: Colors.white,
                       ),
                     ),
                   ),
@@ -132,6 +135,7 @@ class HomeScreen extends StatelessWidget {
           ),
         ),
       ),
+      backgroundColor: Colors.black,
     );
   }
 }
